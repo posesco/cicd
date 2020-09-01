@@ -1,0 +1,22 @@
+Started by user [8mha:////4HGtuAgDe04vqSwEozVlV77pBTJwVOi55HSreDB7GeGNAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZe/dLi1CL9rNS87My8YgDGtiJjwgAAAA==[0mjenkins
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/aws-s3
+[8mha:////4DaWi3l5hS+p1yg0lG5JY01skTT++I7zM9gqkkD5B5euAAAAqx+LCAAAAAAAAP9b85aBtbiIQSujNKU4P0+vIKc0PTOvWC8xrzgzOT8nv0gvMbkkEyjhCKb88ktSdwVsu2efuqidiYHRh4EDIu2ZUsIg5JOVWJaon5OYl64fXFKUmZduXVHEIAU1ODk/rzg/J1XPGUKDDGKAAEYmBoaKghIGFXMj0yTLFOMkXeM0i1RdkyRLI90ko7REXQOLFNM0U8ski1QzUwA29SODrwAAAA==[0m[SSH] script:
+name_db="people"
+host="BASE_DATOS"
+bucket="curso-jenkins"
+AWS_SECRET=**********
+AWS_KEYID=**********
+PASS_DB=**********
+
+/tmp/aws-s3.sh $host $PASS_DB $name_db $AWS_KEYID $AWS_SECRET $bucket
+
+[SSH] executing...
+mysqldump: [Warning] Using a password on the command line interface can be insecure.
+Subiendo tu db-16-08-14.sql hacia amazon ...
+Completed 3.2 KiB/3.2 KiB (5.9 KiB/s) with 1 file(s) remainingupload: ../../tmp/respaldos/db-16-08-14.sql to s3://curso-jenkins/db/db-16-08-14.sql
+
+[SSH] completed
+[SSH] exit-status: 0
+
+Finished: SUCCESS

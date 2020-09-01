@@ -363,3 +363,45 @@ cat crumb.sh
 pwd
 ls
 exit
+cd var/jenkins_home/workspace/maven-job/
+ls
+ls
+ll
+ls -hal
+cd targ
+cd target/
+ls -hal
+ls
+ls
+ls -hal
+ls
+clear
+ls
+ll
+cd ..
+ls
+cd target/
+ls -hal
+ls -hal
+cd surefire-reports/
+ls -hal
+ls -hal
+cat com.mycompany.app.AppTest.txt 
+cat TEST-com.mycompany.app.AppTest.xml 
+clear
+ls
+clear
+cd ..
+ls
+pwv
+pwd
+java -jar /var/jenkins_home/workspace/maven-job/target/my-app-1.0-SNAPSHOT.jar
+ls
+ls
+cd ..
+ls
+cd target/
+ls
+cd surefire-reports/
+pwd
+exit
