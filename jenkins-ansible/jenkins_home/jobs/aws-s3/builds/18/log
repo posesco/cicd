@@ -1,0 +1,23 @@
+Started by user [8mha:////4Jjq2kN3ibwaJyEpu9m0wbRp12H3+fWVuqga6mwBYC+AAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAypEgZu/dLi1CL9xJTczDwAXf12PcAAAAA=[0mJesús David Posada Escobar
+Started by user [8mha:////4Jjq2kN3ibwaJyEpu9m0wbRp12H3+fWVuqga6mwBYC+AAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAypEgZu/dLi1CL9xJTczDwAXf12PcAAAAA=[0mJesús David Posada Escobar
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/aws-s3
+[SSH] script:
+NOMBER_BUCKET="curso-jenkins"
+NOMBRE_HOST="DB_WP"
+AWS_SECRET=**********
+AWS_KEYID=**********
+NOMBRE_DB="libreria_cf"
+PASS_DB=**********
+
+/tmp/aws-s3.sh $NOMBRE_HOST $PASS_DB $NOMBRE_DB $AWS_KEYID $AWS_SECRET $NOMBER_BUCKET
+
+[SSH] executing...
+mysqldump: [Warning] Using a password on the command line interface can be insecure.
+Subiendo tu db-19-46-35.sql hacia amazon ...
+Completed 11.6 KiB/11.6 KiB (11.4 KiB/s) with 1 file(s) remainingupload: ../../tmp/db-19-46-35.sql to s3://curso-jenkins/db/db-19-46-35.sql
+
+[SSH] completed
+[SSH] exit-status: 0
+
+Finished: SUCCESS

@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2020-08-21 20:25:00.423 UTC</timestamp>
+  <md5sum>6cb02377e6adde14d83c31cc07500abb</md5sum>
+  <fileName>Credential id=DB_PASS name=DB_PASS</fileName>
+  <usages>
+    <entry>
+      <string>aws-s3</string>
+      <ranges>1-19</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

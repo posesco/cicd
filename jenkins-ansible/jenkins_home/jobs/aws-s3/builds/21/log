@@ -1,0 +1,21 @@
+Started by user [8mha:////4Jjq2kN3ibwaJyEpu9m0wbRp12H3+fWVuqga6mwBYC+AAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAypEgZu/dLi1CL9xJTczDwAXf12PcAAAAA=[0mJesús David Posada Escobar
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/aws-s3
+[8mha:////4MJ6QqR8D7vD7GsnndWffMMMJV8adeuYXfPTyDU2p0EsAAAAqx+LCAAAAAAAAP9b85aBtbiIQSujNKU4P0+vIKc0PTOvWC8xrzgzOT8nv0gvMbkkEyjhCKb88ktSdwVsu2efuqidiYHRh4EDIu2ZUsIg5JOVWJaon5OYl64fXFKUmZduXVHEIAU1ODk/rzg/J1XPGUKDDGKAAEYmBoaKghIGldRkA6M0Q9MkXcsky0RdkzRTS12L5LREXfNUw9TExCTzxBQDYwBmK/ExrwAAAA==[0m[SSH] script:
+NOMBER_BUCKET="curso-jenkins"
+NOMBRE_HOST="BASE_DATOS"
+AWS_SECRET=**********
+AWS_KEYID=**********
+NOMBRE_DB="people"
+PASS_DB=**********
+
+/tmp/aws-s3.sh $NOMBRE_HOST $PASS_DB $NOMBRE_DB $AWS_KEYID $AWS_SECRET $NOMBER_BUCKET
+
+[SSH] executing...
+/tmp/aws-s3.sh: line 12: /tmp/respaldos/db-18-53-27.sql: No such file or directory
+
+[SSH] completed
+[SSH] exit-status: 1
+
+Build step 'Execute shell script on remote host using ssh' marked build as failure
+Finished: FAILURE

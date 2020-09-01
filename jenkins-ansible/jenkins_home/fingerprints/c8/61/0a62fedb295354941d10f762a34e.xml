@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2020-08-31 19:23:51.105 UTC</timestamp>
+  <md5sum>c8610a62fedb295354941d10f762a34e</md5sum>
+  <fileName>Credential id=AWS_SECRET name=Secret access key</fileName>
+  <usages>
+    <entry>
+      <string>aws-s3</string>
+      <ranges>27-28</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

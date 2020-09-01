@@ -1,0 +1,14 @@
+Started by user [8mha:////4Jjq2kN3ibwaJyEpu9m0wbRp12H3+fWVuqga6mwBYC+AAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAypEgZu/dLi1CL9xJTczDwAXf12PcAAAAA=[0mJesús David Posada Escobar
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/aws-s3
+SSH: Connecting from host [1eff7c9f6766]
+SSH: Connecting with configuration [llave] ...
+SSH: EXEC: STDOUT/STDERR from command [/tmp/aws-s3.sh DB_WP **** libreria_cf **** **** curso-jenkins] ...
+mysqldump: [Warning] Using a password on the command line interface can be insecure.
+Subiendo tu db-21-17-00.sql hacia amazon ...
+Completed 11.6 KiB/11.6 KiB (6.8 KiB/s) with 1 file(s) remainingupload: ../../tmp/db-21-17-00.sql to s3://curso-jenkins/db/db-21-17-00.sql
+SSH: EXEC: completed after 9,665 ms
+SSH: Disconnecting configuration [llave] ...
+SSH: Transferred 0 file(s)
+Build step 'Send files or execute commands over SSH' changed build result to SUCCESS
+Finished: SUCCESS

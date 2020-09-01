@@ -1,0 +1,8 @@
+Started by user [8mha:////4Jjq2kN3ibwaJyEpu9m0wbRp12H3+fWVuqga6mwBYC+AAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAypEgZu/dLi1CL9xJTczDwAXf12PcAAAAA=[0mJesús David Posada Escobar
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/aws-s3
+[aws-s3] $ /bin/sh -xe /tmp/jenkins4090898408832002563.sh
++ /tmp/aws-s3.sh DB_WP **** libreria_cf **** **** curso-jenkins
+/tmp/jenkins4090898408832002563.sh: 2: /tmp/jenkins4090898408832002563.sh: /tmp/aws-s3.sh: not found
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

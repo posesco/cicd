@@ -1,0 +1,6 @@
+Started by user [8mha:////4Jjq2kN3ibwaJyEpu9m0wbRp12H3+fWVuqga6mwBYC+AAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAypEgZu/dLi1CL9xJTczDwAXf12PcAAAAA=[0mJesús David Posada Escobar
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/aws-s3
+[SSH] No SSH site found - this is likely a configuration problem!
+Build step 'Execute shell script on remote host using ssh' changed build result to UNSTABLE
+Finished: UNSTABLE

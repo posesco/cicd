@@ -1,0 +1,70 @@
+# Infraestructura para aplicacion web y principo de CI/CD
+version: '3.8'
+services:
+  # Contenedor de automatizacion
+  jenkins:
+    container_name: JENKINS
+    image: jenkins/jenkins:posesco
+    build: 
+      context: jenkins-ansible
+    ports:
+      - "8080:8080"
+      - "5000:5000"
+    volumes:
+      - ./jenkins-ansible/jenkins_home:/var/jenkins_home
+    networks:
+      - net  
+  # Contenedor de scripts para ejecucion remota
+  centos:
+    container_name: SERVER_SCRIPTS
+    image: centos:posesco
+    build:
+      context: centos
+    volumes: 
+      - ./centos/scripts:/tmp
+    networks: 
+      - net
+  # Contenedor de aplicacion php
+  php:
+    container_name: SERVER_APP
+    image: php:posesco
+    build:
+      context: web
+    ports:
+      - 9000:9000
+    volumes:
+      - ./web/api:/srv/www/api
+      - ./web/api/www.conf:/usr/local/etc/php-fpm.d/www.conf
+    env_file: .env
+    networks: 
+      - net
+  # Contenedor Servidor Web
+  nginx: 
+    container_name: NGINX
+    image: nginx:latest
+    ports:
+      - 80:80
+    volumes:
+      - ./web/api:/srv/www/api
+      - ./web/nginx/default.conf:/etc/nginx/conf.d/default.conf
+    depends_on: 
+      - php
+    networks:
+      - net
+  # Contenedor Base de Datos
+  db:
+    container_name: BASE_DATOS
+    image: mysql:posesco
+    build:
+      context: mysql
+    depends_on: 
+      - php
+    ports: 
+        - 3306:3306
+    volumes: 
+        - ./mysql/db:/var/lib/mysql
+    env_file: .env
+    networks: 
+        - net 
+networks:
+  net:

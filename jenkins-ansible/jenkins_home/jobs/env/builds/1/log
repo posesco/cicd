@@ -1,0 +1,11 @@
+Started by user [8mha:////4KhcTsEDalSRTutnif9lj3nawftmGg7G+48Z3WC0sV+uAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/env
+[env] $ /bin/sh -xe /tmp/jenkins6976321514756527779.sh
++ echo 1
+1
++ echo 1
+1
++ echo jenkins-env-1
+jenkins-env-1
+Finished: SUCCESS

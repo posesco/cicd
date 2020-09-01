@@ -1,0 +1,22 @@
+Started by user [8mha:////4Jjq2kN3ibwaJyEpu9m0wbRp12H3+fWVuqga6mwBYC+AAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAypEgZu/dLi1CL9xJTczDwAXf12PcAAAAA=[0mJesús David Posada Escobar
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/aws-s3
+[8mha:////4JBK7RS+/aAjUE9zMfKRQJNgS+gDdYtKppRrOabvtqVRAAAAqx+LCAAAAAAAAP9b85aBtbiIQSujNKU4P0+vIKc0PTOvWC8xrzgzOT8nv0gvMbkkEyjhCKb88ktSdwVsu2efuqidiYHRh4EDIu2ZUsIg5JOVWJaon5OYl64fXFKUmZduXVHEIAU1ODk/rzg/J1XPGUKDDGKAAEYmBoaKghIGFcs0g2TjVLNEXVNzSwNdE0NjU12LRAtLXSMjM0PDFFMTw6QUQwATywAxrwAAAA==[0m[SSH] script:
+NOMBER_BUCKET="curso-jenkins"
+NOMBRE_HOST="BASE_DATOS"
+AWS_SECRET=**********
+AWS_KEYID=**********
+NOMBRE_DB="people"
+PASS_DB=**********
+
+/tmp/aws-s3.sh $NOMBRE_HOST $PASS_DB $NOMBRE_DB $AWS_KEYID $AWS_SECRET $NOMBER_BUCKET
+
+[SSH] executing...
+mysqldump: [Warning] Using a password on the command line interface can be insecure.
+mysqldump: Couldn't execute 'SELECT COLUMN_NAME,                       JSON_EXTRACT(HISTOGRAM, '$."number-of-buckets-specified"')                FROM information_schema.COLUMN_STATISTICS                WHERE SCHEMA_NAME = 'people' AND TABLE_NAME = 'registro';': Unknown table 'COLUMN_STATISTICS' in information_schema (1109)
+
+[SSH] completed
+[SSH] exit-status: 2
+
+Build step 'Execute shell script on remote host using ssh' marked build as failure
+Finished: FAILURE

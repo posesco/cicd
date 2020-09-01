@@ -1,0 +1,21 @@
+Started by user [8mha:////4Jjq2kN3ibwaJyEpu9m0wbRp12H3+fWVuqga6mwBYC+AAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAypEgZu/dLi1CL9xJTczDwAXf12PcAAAAA=[0mJesús David Posada Escobar
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/tarea_remota
+SSH: Connecting from host [1eff7c9f6766]
+SSH: Connecting with configuration [llave] ...
+SSH: EXEC: STDOUT/STDERR from command [echo "Hola a todos" >> /tmp/test.txt
+/tmp/triangulos.sh 3] ...
+<
+*.<
+*.*.<
+*.*.<
+*.*.<
+*.*.<
+*.*.>
+*.>
+>
+SSH: EXEC: completed after 218 ms
+SSH: Disconnecting configuration [llave] ...
+SSH: Transferred 0 file(s)
+Build step 'Send files or execute commands over SSH' changed build result to SUCCESS
+Finished: SUCCESS

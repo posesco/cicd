@@ -1,0 +1,24 @@
+Started by user [8mha:////4Jjq2kN3ibwaJyEpu9m0wbRp12H3+fWVuqga6mwBYC+AAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAypEgZu/dLi1CL9xJTczDwAXf12PcAAAAA=[0mJesús David Posada Escobar
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/aws-s3
+[8mha:////4IMbREUFPQwS9EwK/2ikHYWFSTQBbX20Qqb9W1a6mK7cAAAAqx+LCAAAAAAAAP9b85aBtbiIQSujNKU4P0+vIKc0PTOvWC8xrzgzOT8nv0gvMbkkEyjhCKb88ktSdwVsu2efuqidiYHRh4EDIu2ZUsIg5JOVWJaon5OYl64fXFKUmZduXVHEIAU1ODk/rzg/J1XPGUKDDGKAAEYmBoaKghIGFYsUc1PzxDQjXSNDc3NdE9NkM10LwyRjXZNEw2RTcxMLc2ODFAB/kXp/rwAAAA==[0m[SSH] script:
+name_db="people"
+host="BASE_DATOS"
+bucket="curso-jenkins"
+AWS_SECRET=**********
+AWS_KEYID=**********
+PASS_DB=**********
+
+/tmp/aws-s3.sh $host $PASS_DB $name_db $AWS_KEYID $AWS_SECRET $bucket
+
+[SSH] executing...
+/tmp/aws-s3.sh: line 11: /etc/my.cnf: Permission denied
+/tmp/aws-s3.sh: line 12: /etc/my.cnf: Permission denied
+mysqldump: [Warning] Using a password on the command line interface can be insecure.
+Subiendo tu db-19-53-21.sql hacia amazon ...
+Completed 3.2 KiB/3.2 KiB (5.9 KiB/s) with 1 file(s) remainingupload: ../../tmp/respaldos/db-19-53-21.sql to s3://curso-jenkins/db/db-19-53-21.sql
+
+[SSH] completed
+[SSH] exit-status: 0
+
+Finished: SUCCESS

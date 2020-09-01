@@ -1,0 +1,82 @@
+Started by user [8mha:////4Jjq2kN3ibwaJyEpu9m0wbRp12H3+fWVuqga6mwBYC+AAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAypEgZu/dLi1CL9xJTczDwAXf12PcAAAAA=[0mJesús David Posada Escobar
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/tarea_remota
+[SSH] script:
+DATA="5"
+
+echo "Hola a todos" >> /tmp/test.txt
+/tmp/triangulos.sh $DATA
+
+[SSH] executing...
+<
+*.<
+*.*.<
+*.*.*.<
+*.*.*.*.<
+*.*.*.*.<
+*.*.*.*.<
+*.*.*.*.<
+*.*.*.*.<
+*.*.*.*.<
+*.*.*.*.>
+*.*.*.>
+*.*.>
+*.>
+>
+
+[SSH] completed
+[SSH] exit-status: 0
+
+[SSH] script:
+DATA="5"
+
+echo "Hola a todos" >> /tmp/test.txt
+/tmp/triangulos.sh $DATA
+
+[SSH] executing...
+<
+*.<
+*.*.<
+*.*.*.<
+*.*.*.*.<
+*.*.*.*.<
+*.*.*.*.<
+*.*.*.*.<
+*.*.*.*.<
+*.*.*.*.<
+*.*.*.*.>
+*.*.*.>
+*.*.>
+*.>
+>
+
+[SSH] completed
+[SSH] exit-status: 0
+
+[SSH] script:
+DATA="5"
+
+echo "Hola a todos" >> /tmp/test.txt
+/tmp/triangulos.sh $DATA
+
+[SSH] executing...
+<
+*.<
+*.*.<
+*.*.*.<
+*.*.*.*.<
+*.*.*.*.<
+*.*.*.*.<
+*.*.*.*.<
+*.*.*.*.<
+*.*.*.*.<
+*.*.*.*.>
+*.*.*.>
+*.*.>
+*.>
+>
+
+[SSH] completed
+[SSH] exit-status: 0
+
+Finished: SUCCESS
