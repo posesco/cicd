@@ -18,6 +18,7 @@ services:
   centos:
     container_name: SERVER_SCRIPTS
     image: centos:posesco
+    hostname: scripts.local
     build:
       context: centos
     volumes: 
@@ -28,6 +29,7 @@ services:
   php:
     container_name: SERVER_APP
     image: php:posesco
+    hostname: php.local
     build:
       context: web
     ports:
@@ -42,8 +44,9 @@ services:
   nginx: 
     container_name: NGINX
     image: nginx:latest
+    hostname: web.local
     ports:
-      - 80:80
+      - 8888:80
     volumes:
       - ./web/api:/srv/www/api
       - ./web/nginx/default.conf:/etc/nginx/conf.d/default.conf
@@ -55,6 +58,7 @@ services:
   db:
     container_name: BASE_DATOS
     image: mysql:posesco
+    hostname: basedatos.local
     build:
       context: mysql
     depends_on: 
@@ -66,5 +70,20 @@ services:
     env_file: .env
     networks: 
         - net 
+  # Contenedor GitLab
+  git:
+    container_name: SERVER_GIT
+    image: gitlab/gitlab-ce:latest
+    hostname: gitlab.example.com
+    ports:
+      - 443:443
+      - 80:80
+      - 22:22
+    volumes:
+      - ./gitlab/config:/etc/gitlab
+      - ./gitlab/logs:/var/log/gitlab
+      - ./gitlab/data:/var/opt/gitlab
+    networks:
+      - net
 networks:
   net:

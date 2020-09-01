@@ -6,7 +6,7 @@
   <usages>
     <entry>
       <string>aws-s3</string>
-      <ranges>22-38</ranges>
+      <ranges>22-40</ranges>
     </entry>
   </usages>
   <facets/>

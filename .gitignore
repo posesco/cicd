@@ -1,5 +1,5 @@
 mysql/db/
 centos/scripts/test.txt
 */credenciales_aws.csv
-*/correo_aws.csv
+correo_aws.csv
 **/.DS_Store

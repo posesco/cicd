@@ -1,0 +1,21 @@
+# Logfile created on 2020-09-01 21:06:03 +0000 by logger.rb/66358
+2020-09-01T21:06:03.449Z: Checking state of dynamic postgres partitions
+2020-09-01T21:12:02.168Z: Checking state of dynamic postgres partitions
+2020-09-01T21:12:03.308Z: {:method=>"with_lock_retries", :class=>"Gitlab::Database::Partitioning::PartitionCreator", :message=>"Lock timeout is set", :current_iteration=>1, :lock_timeout_in_ms=>100}
+2020-09-01T21:12:03.945Z: Created partition audit_events_part_5fc467ac26_000000 for table audit_events_part_5fc467ac26
+2020-09-01T21:12:04.185Z: Created partition audit_events_part_5fc467ac26_202009 for table audit_events_part_5fc467ac26
+2020-09-01T21:12:04.378Z: Created partition audit_events_part_5fc467ac26_202010 for table audit_events_part_5fc467ac26
+2020-09-01T21:12:04.547Z: Created partition audit_events_part_5fc467ac26_202011 for table audit_events_part_5fc467ac26
+2020-09-01T21:12:04.691Z: Created partition audit_events_part_5fc467ac26_202012 for table audit_events_part_5fc467ac26
+2020-09-01T21:12:04.895Z: Created partition audit_events_part_5fc467ac26_202101 for table audit_events_part_5fc467ac26
+2020-09-01T21:12:05.071Z: Created partition audit_events_part_5fc467ac26_202102 for table audit_events_part_5fc467ac26
+2020-09-01T21:12:05.212Z: Created partition audit_events_part_5fc467ac26_202103 for table audit_events_part_5fc467ac26
+2020-09-01T21:12:05.245Z: {:method=>"with_lock_retries", :class=>"Gitlab::Database::Partitioning::PartitionCreator", :message=>"Migration finished", :current_iteration=>1, :lock_timeout_in_ms=>100}
+2020-09-01T21:12:16.548Z: User "Administrator" (admin@example.com) was created
+2020-09-01T21:14:06.019Z: Checking state of dynamic postgres partitions
+2020-09-01T21:17:28.599Z: Checking state of dynamic postgres partitions
+2020-09-01T21:17:51.751Z: Checking state of dynamic postgres partitions
+2020-09-01T21:20:44.074Z: Checking state of dynamic postgres partitions
+2020-09-01T21:24:10.471Z: Checking state of dynamic postgres partitions
+2020-09-01T21:26:42.467Z: Checking state of dynamic postgres partitions
+2020-09-01T21:32:47.132Z: Checking state of dynamic postgres partitions

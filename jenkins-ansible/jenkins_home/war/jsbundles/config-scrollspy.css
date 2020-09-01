@@ -234,6 +234,7 @@
   --plugin-manager-category-link-border-color--hover: var(--black);
   --plugin-manager-category-text-color: var(--text-color);
   --plugin-manager-category-link-color--hover: var(--text-color);
+  --plugin-manager-unavailable-bg-color: #f4f4f4;
   --auto-complete-bg-color--prehighlight: #b3d4ff;
   --call-to-action-link-color: #000;
   --call-to-action-text-color: var(--alert-info-text-color);

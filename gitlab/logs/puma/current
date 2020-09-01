@@ -1,0 +1,47 @@
+2020-09-01_21:14:46.77108 {"timestamp":"2020-09-01T21:14:46.770Z","pid":7766,"message":"Puma starting in cluster mode..."}
+2020-09-01_21:14:46.80457 {"timestamp":"2020-09-01T21:14:46.771Z","pid":7766,"message":"* Min threads: 4, max threads: 4"}
+2020-09-01_21:14:46.80592 {"timestamp":"2020-09-01T21:14:46.771Z","pid":7766,"message":"* Environment: production"}
+2020-09-01_21:14:46.80706 {"timestamp":"2020-09-01T21:14:46.771Z","pid":7766,"message":"* Process workers: 4"}
+2020-09-01_21:14:46.80797 {"timestamp":"2020-09-01T21:14:46.771Z","pid":7766,"message":"* Preloading application"}
+2020-09-01_21:21:52.00885 bundler: failed to load command: puma (/opt/gitlab/embedded/bin/puma)
+2020-09-01_21:21:52.01094 Errno::ENAMETOOLONG: File name too long - connect(2) for /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket
+2020-09-01_21:21:52.01174   /opt/gitlab/embedded/lib/ruby/gems/2.6.0/gems/gitlab-puma-4.3.3.gitlab.2/lib/puma/binder.rb:327:in `initialize'
+2020-09-01_21:21:52.01232   /opt/gitlab/embedded/lib/ruby/gems/2.6.0/gems/gitlab-puma-4.3.3.gitlab.2/lib/puma/binder.rb:327:in `new'
+2020-09-01_21:21:52.01325   /opt/gitlab/embedded/lib/ruby/gems/2.6.0/gems/gitlab-puma-4.3.3.gitlab.2/lib/puma/binder.rb:327:in `add_unix_listener'
+2020-09-01_21:21:52.02053   /opt/gitlab/embedded/lib/ruby/gems/2.6.0/gems/gitlab-puma-4.3.3.gitlab.2/lib/puma/binder.rb:151:in `block in parse'
+2020-09-01_21:21:52.02584   /opt/gitlab/embedded/lib/ruby/gems/2.6.0/gems/gitlab-puma-4.3.3.gitlab.2/lib/puma/binder.rb:90:in `each'
+2020-09-01_21:21:52.02794   /opt/gitlab/embedded/lib/ruby/gems/2.6.0/gems/gitlab-puma-4.3.3.gitlab.2/lib/puma/binder.rb:90:in `parse'
+2020-09-01_21:21:52.02857   /opt/gitlab/embedded/lib/ruby/gems/2.6.0/gems/gitlab-puma-4.3.3.gitlab.2/lib/puma/runner.rb:161:in `load_and_bind'
+2020-09-01_21:21:52.03371   /opt/gitlab/embedded/lib/ruby/gems/2.6.0/gems/gitlab-puma-4.3.3.gitlab.2/lib/puma/cluster.rb:413:in `run'
+2020-09-01_21:21:52.03437   /opt/gitlab/embedded/lib/ruby/gems/2.6.0/gems/gitlab-puma-4.3.3.gitlab.2/lib/puma/launcher.rb:172:in `run'
+2020-09-01_21:21:52.03507   /opt/gitlab/embedded/lib/ruby/gems/2.6.0/gems/gitlab-puma-4.3.3.gitlab.2/lib/puma/cli.rb:80:in `run'
+2020-09-01_21:21:52.03559   /opt/gitlab/embedded/lib/ruby/gems/2.6.0/gems/gitlab-puma-4.3.3.gitlab.2/bin/puma:10:in `<top (required)>'
+2020-09-01_21:21:52.03630   /opt/gitlab/embedded/bin/puma:23:in `load'
+2020-09-01_21:21:52.03846   /opt/gitlab/embedded/bin/puma:23:in `<top (required)>'
+2020-09-01_21:21:56.89342 {"timestamp":"2020-09-01T21:21:56.893Z","pid":10887,"message":"Puma starting in cluster mode..."}
+2020-09-01_21:21:56.89628 {"timestamp":"2020-09-01T21:21:56.893Z","pid":10887,"message":"* Version 4.3.3.gitlab.2 (ruby 2.6.6-p146), codename: Mysterious Traveller"}
+2020-09-01_21:21:56.89857 {"timestamp":"2020-09-01T21:21:56.893Z","pid":10887,"message":"* Min threads: 4, max threads: 4"}
+2020-09-01_21:21:56.89973 {"timestamp":"2020-09-01T21:21:56.893Z","pid":10887,"message":"* Environment: production"}
+2020-09-01_21:21:56.90053 {"timestamp":"2020-09-01T21:21:56.894Z","pid":10887,"message":"* Process workers: 4"}
+2020-09-01_21:21:56.90131 {"timestamp":"2020-09-01T21:21:56.894Z","pid":10887,"message":"* Preloading application"}
+2020-09-01_21:29:53.35242 bundler: failed to load command: puma (/opt/gitlab/embedded/bin/puma)
+2020-09-01_21:29:53.35390 Errno::ENAMETOOLONG: File name too long - connect(2) for /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket
+2020-09-01_21:29:53.35474   /opt/gitlab/embedded/lib/ruby/gems/2.6.0/gems/gitlab-puma-4.3.3.gitlab.2/lib/puma/binder.rb:327:in `initialize'
+2020-09-01_21:29:53.35546   /opt/gitlab/embedded/lib/ruby/gems/2.6.0/gems/gitlab-puma-4.3.3.gitlab.2/lib/puma/binder.rb:327:in `new'
+2020-09-01_21:29:53.35724   /opt/gitlab/embedded/lib/ruby/gems/2.6.0/gems/gitlab-puma-4.3.3.gitlab.2/lib/puma/binder.rb:327:in `add_unix_listener'
+2020-09-01_21:29:53.36072   /opt/gitlab/embedded/lib/ruby/gems/2.6.0/gems/gitlab-puma-4.3.3.gitlab.2/lib/puma/binder.rb:151:in `block in parse'
+2020-09-01_21:29:53.36134   /opt/gitlab/embedded/lib/ruby/gems/2.6.0/gems/gitlab-puma-4.3.3.gitlab.2/lib/puma/binder.rb:90:in `each'
+2020-09-01_21:29:53.36264   /opt/gitlab/embedded/lib/ruby/gems/2.6.0/gems/gitlab-puma-4.3.3.gitlab.2/lib/puma/binder.rb:90:in `parse'
+2020-09-01_21:29:53.36401   /opt/gitlab/embedded/lib/ruby/gems/2.6.0/gems/gitlab-puma-4.3.3.gitlab.2/lib/puma/runner.rb:161:in `load_and_bind'
+2020-09-01_21:29:53.36502   /opt/gitlab/embedded/lib/ruby/gems/2.6.0/gems/gitlab-puma-4.3.3.gitlab.2/lib/puma/cluster.rb:413:in `run'
+2020-09-01_21:29:53.36598   /opt/gitlab/embedded/lib/ruby/gems/2.6.0/gems/gitlab-puma-4.3.3.gitlab.2/lib/puma/launcher.rb:172:in `run'
+2020-09-01_21:29:53.37766   /opt/gitlab/embedded/lib/ruby/gems/2.6.0/gems/gitlab-puma-4.3.3.gitlab.2/lib/puma/cli.rb:80:in `run'
+2020-09-01_21:29:53.38097   /opt/gitlab/embedded/lib/ruby/gems/2.6.0/gems/gitlab-puma-4.3.3.gitlab.2/bin/puma:10:in `<top (required)>'
+2020-09-01_21:29:53.39382   /opt/gitlab/embedded/bin/puma:23:in `load'
+2020-09-01_21:29:53.41127   /opt/gitlab/embedded/bin/puma:23:in `<top (required)>'
+2020-09-01_21:30:06.88451 {"timestamp":"2020-09-01T21:30:06.884Z","pid":14227,"message":"Puma starting in cluster mode..."}
+2020-09-01_21:30:06.88726 {"timestamp":"2020-09-01T21:30:06.884Z","pid":14227,"message":"* Version 4.3.3.gitlab.2 (ruby 2.6.6-p146), codename: Mysterious Traveller"}
+2020-09-01_21:30:06.88851 {"timestamp":"2020-09-01T21:30:06.885Z","pid":14227,"message":"* Min threads: 4, max threads: 4"}
+2020-09-01_21:30:06.88983 {"timestamp":"2020-09-01T21:30:06.885Z","pid":14227,"message":"* Environment: production"}
+2020-09-01_21:30:06.89116 {"timestamp":"2020-09-01T21:30:06.885Z","pid":14227,"message":"* Process workers: 4"}
+2020-09-01_21:30:06.91915 {"timestamp":"2020-09-01T21:30:06.885Z","pid":14227,"message":"* Preloading application"}

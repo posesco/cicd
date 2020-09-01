@@ -1,0 +1,38 @@
+2020-09-01_21:03:52.35432 LOG:  listening on Unix socket "/var/opt/gitlab/postgresql/.s.PGSQL.5432"
+2020-09-01_21:03:52.66525 LOG:  database system was shut down at 2020-09-01 21:03:25 GMT
+2020-09-01_21:03:52.88739 LOG:  database system is ready to accept connections
+2020-09-01_21:29:28.86998 ERROR:  canceling statement due to statement timeout
+2020-09-01_21:29:28.89123 STATEMENT:  SELECT relnamespace::regnamespace as schemaname,
+2020-09-01_21:29:28.94071 	       relname as relname,
+2020-09-01_21:29:28.95280 	       pg_total_relation_size(oid) bytes
+2020-09-01_21:29:28.95413 	  FROM pg_class
+2020-09-01_21:29:28.98773 	 WHERE relkind = 'r';
+2020-09-01_21:29:29.05506 	
+2020-09-01_21:30:47.72375 ERROR:  canceling statement due to statement timeout
+2020-09-01_21:30:47.72604 STATEMENT:  SELECT relnamespace::regnamespace as schemaname,
+2020-09-01_21:30:47.72704 	       relname as relname,
+2020-09-01_21:30:47.72777 	       pg_total_relation_size(oid) bytes
+2020-09-01_21:30:47.72844 	  FROM pg_class
+2020-09-01_21:30:47.72955 	 WHERE relkind = 'r';
+2020-09-01_21:30:47.73033 	
+2020-09-01_21:31:55.35151 ERROR:  canceling statement due to statement timeout
+2020-09-01_21:31:55.36892 STATEMENT:  SELECT relnamespace::regnamespace as schemaname,
+2020-09-01_21:31:55.36981 	       relname as relname,
+2020-09-01_21:31:55.37455 	       pg_total_relation_size(oid) bytes
+2020-09-01_21:31:55.37830 	  FROM pg_class
+2020-09-01_21:31:55.37904 	 WHERE relkind = 'r';
+2020-09-01_21:31:55.38332 	
+2020-09-01_21:32:59.62275 ERROR:  canceling statement due to statement timeout
+2020-09-01_21:32:59.62565 STATEMENT:  SELECT relnamespace::regnamespace as schemaname,
+2020-09-01_21:32:59.62698 	       relname as relname,
+2020-09-01_21:32:59.62776 	       pg_total_relation_size(oid) bytes
+2020-09-01_21:32:59.62872 	  FROM pg_class
+2020-09-01_21:32:59.63233 	 WHERE relkind = 'r';
+2020-09-01_21:32:59.63354 	
+2020-09-01_21:36:02.13140 ERROR:  canceling statement due to statement timeout
+2020-09-01_21:36:02.13291 STATEMENT:  SELECT relnamespace::regnamespace as schemaname,
+2020-09-01_21:36:02.13568 	       relname as relname,
+2020-09-01_21:36:02.13653 	       pg_total_relation_size(oid) bytes
+2020-09-01_21:36:02.13815 	  FROM pg_class
+2020-09-01_21:36:02.13911 	 WHERE relkind = 'r';
+2020-09-01_21:36:02.13997 	

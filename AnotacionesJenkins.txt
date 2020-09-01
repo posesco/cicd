@@ -1,0 +1,19 @@
+Curso Jenkins
+Es automatizador de procesos que se usa para CI/CD
+
+ssh-keygen -f remote-key -m PEM --- Creacion de llaves ssh
+ssh -i /directoriossh/remote-key remote_user@host(ip o nombre) - Conexion SSH sin solicitar contraseña
+
+Conexion con AWS
+Las credenciales se toman de lo que aws nso entrego en la instancia S3
+export AWS_ACCESS_KEY_ID=AKIA562TESIBAMQKK4UZ
+export AWS_SECRET_ACCESS_KEY=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
+
+aws s3 cp wp_db.sql s3://curso-jenkins/bd/
+aws s3 cp libreria_cf.sql s3://curso-jenkins/bd/
+
+Ansible:
+Se realiza la instalacion desde Dockerfile
+ansible -m ping -i host centos --- probrar conexion
+
+

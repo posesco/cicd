@@ -1,0 +1,19 @@
+Started by user [8mha:////4HGtuAgDe04vqSwEozVlV77pBTJwVOi55HSreDB7GeGNAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZe/dLi1CL9rNS87My8YgDGtiJjwgAAAA==[0mjenkins
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/env
+[env] $ /bin/sh -xe /tmp/jenkins5473835905993585474.sh
++ echo BUILD_NUMBER: 15
+BUILD_NUMBER: 15
++ echo BUILD_URL: http://jenkins.local:8080/job/env/15/
+BUILD_URL: http://jenkins.local:8080/job/env/15/
++ echo JOB_NAME: env
+JOB_NAME: env
++ echo JAVA_HOME: /usr/local/openjdk-8
+JAVA_HOME: /usr/local/openjdk-8
++ echo JENKINS_URL: http://jenkins.local:8080/
+JENKINS_URL: http://jenkins.local:8080/
++ echo PLATAFORMA: Udemy
+PLATAFORMA: Udemy
++ echo PAIS: Colombia
+PAIS: Colombia
+Finished: SUCCESS

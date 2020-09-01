@@ -1,0 +1,46 @@
+Started by user [8mha:////4HGtuAgDe04vqSwEozVlV77pBTJwVOi55HSreDB7GeGNAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZe/dLi1CL9rNS87My8YgDGtiJjwgAAAA==[0mjenkins
+Started by user [8mha:////4HGtuAgDe04vqSwEozVlV77pBTJwVOi55HSreDB7GeGNAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZe/dLi1CL9rNS87My8YgDGtiJjwgAAAA==[0mjenkins
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/tarea_remota
+[SSH] script:
+DATA="15"
+
+echo "Hola a todos $DATE" >> /tmp/test.txt
+/tmp/triangulos.sh $DATA
+
+[SSH] executing...
+<
+*.<
+*.*.<
+*.*.*.<
+*.*.*.*.<
+*.*.*.*.*.<
+*.*.*.*.*.*.<
+*.*.*.*.*.*.*.<
+*.*.*.*.*.*.*.*.<
+*.*.*.*.*.*.*.*.*.<
+*.*.*.*.*.*.*.*.*.*.<
+*.*.*.*.*.*.*.*.*.*.*.<
+*.*.*.*.*.*.*.*.*.*.*.*.<
+*.*.*.*.*.*.*.*.*.*.*.*.*.<
+*.*.*.*.*.*.*.*.*.*.*.*.*.*.<
+*.*.*.*.*.*.*.*.*.*.*.*.*.*.>
+*.*.*.*.*.*.*.*.*.*.*.*.*.>
+*.*.*.*.*.*.*.*.*.*.*.*.>
+*.*.*.*.*.*.*.*.*.*.*.>
+*.*.*.*.*.*.*.*.*.*.>
+*.*.*.*.*.*.*.*.*.>
+*.*.*.*.*.*.*.*.>
+*.*.*.*.*.*.*.>
+*.*.*.*.*.*.>
+*.*.*.*.*.>
+*.*.*.*.>
+*.*.*.>
+*.*.>
+*.>
+>
+
+[SSH] completed
+[SSH] exit-status: 0
+
+Finished: SUCCESS
