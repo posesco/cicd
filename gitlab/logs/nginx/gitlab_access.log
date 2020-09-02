@@ -1,47 +1,17 @@
-127.0.0.1 - - [01/Sep/2020:21:16:53 +0000] "GET /help HTTP/1.1" 502 2940 "" "curl/7.59.0-DEV" -
-172.18.0.1 - - [01/Sep/2020:21:16:53 +0000] "GET / HTTP/1.1" 502 2940 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -
-172.18.0.1 - - [01/Sep/2020:21:16:54 +0000] "GET /favicon.ico HTTP/1.1" 502 2940 "http://localhost/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -
-127.0.0.1 - - [01/Sep/2020:21:17:56 +0000] "GET /help HTTP/1.1" 502 2940 "" "curl/7.59.0-DEV" -
-127.0.0.1 - - [01/Sep/2020:21:18:57 +0000] "GET /help HTTP/1.1" 502 2940 "" "curl/7.59.0-DEV" -
-172.18.0.1 - - [01/Sep/2020:21:19:21 +0000] "GET / HTTP/1.1" 502 2940 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -
-172.18.0.1 - - [01/Sep/2020:21:19:22 +0000] "GET /favicon.ico HTTP/1.1" 502 2940 "http://localhost/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -
-127.0.0.1 - - [01/Sep/2020:21:20:00 +0000] "GET /help HTTP/1.1" 502 2940 "" "curl/7.59.0-DEV" -
-127.0.0.1 - - [01/Sep/2020:21:21:02 +0000] "GET /help HTTP/1.1" 502 2940 "" "curl/7.59.0-DEV" -
-127.0.0.1 - - [01/Sep/2020:21:22:03 +0000] "GET /help HTTP/1.1" 502 2940 "" "curl/7.59.0-DEV" -
-172.18.0.1 - - [01/Sep/2020:21:22:29 +0000] "GET / HTTP/1.1" 502 2940 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -
-172.18.0.1 - - [01/Sep/2020:21:22:29 +0000] "GET /favicon.ico HTTP/1.1" 502 2940 "http://localhost/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -
-172.18.0.1 - - [01/Sep/2020:21:22:32 +0000] "GET / HTTP/1.1" 502 2940 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -
-172.18.0.1 - - [01/Sep/2020:21:22:32 +0000] "GET /favicon.ico HTTP/1.1" 502 2940 "http://localhost/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -
-172.18.0.1 - - [01/Sep/2020:21:22:36 +0000] "GET / HTTP/1.1" 502 2940 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -
-172.18.0.1 - - [01/Sep/2020:21:22:36 +0000] "GET /favicon.ico HTTP/1.1" 502 2940 "http://localhost/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -
-127.0.0.1 - - [01/Sep/2020:21:23:07 +0000] "GET /help HTTP/1.1" 502 2940 "" "curl/7.59.0-DEV" -
-127.0.0.1 - - [01/Sep/2020:21:24:09 +0000] "GET /help HTTP/1.1" 502 2940 "" "curl/7.59.0-DEV" -
-172.18.0.1 - - [01/Sep/2020:21:24:10 +0000] "GET / HTTP/1.1" 502 2940 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -
-172.18.0.1 - - [01/Sep/2020:21:24:11 +0000] "GET /favicon.ico HTTP/1.1" 502 2940 "http://localhost/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -
-127.0.0.1 - - [01/Sep/2020:21:25:12 +0000] "GET /help HTTP/1.1" 502 2940 "" "curl/7.59.0-DEV" -
-172.18.0.1 - - [01/Sep/2020:21:25:16 +0000] "GET / HTTP/1.1" 502 2940 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -
-172.18.0.1 - - [01/Sep/2020:21:25:16 +0000] "GET /favicon.ico HTTP/1.1" 502 2940 "http://localhost/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -
-172.18.0.1 - - [01/Sep/2020:21:25:19 +0000] "GET / HTTP/1.1" 502 2940 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -
-172.18.0.1 - - [01/Sep/2020:21:25:20 +0000] "GET /favicon.ico HTTP/1.1" 502 2940 "http://localhost/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -
-172.18.0.1 - - [01/Sep/2020:21:25:22 +0000] "GET / HTTP/1.1" 502 2940 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -
-172.18.0.1 - - [01/Sep/2020:21:25:22 +0000] "GET /favicon.ico HTTP/1.1" 502 2940 "http://localhost/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -
-172.18.0.1 - - [01/Sep/2020:21:25:51 +0000] "GET / HTTP/1.1" 502 2940 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -
-172.18.0.1 - - [01/Sep/2020:21:25:52 +0000] "GET /favicon.ico HTTP/1.1" 502 2940 "http://localhost/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -
-127.0.0.1 - - [01/Sep/2020:21:26:15 +0000] "GET /help HTTP/1.1" 502 2940 "" "curl/7.59.0-DEV" -
-127.0.0.1 - - [01/Sep/2020:21:27:20 +0000] "GET /help HTTP/1.1" 502 2940 "" "curl/7.59.0-DEV" -
-172.18.0.1 - - [01/Sep/2020:21:27:52 +0000] "GET / HTTP/1.1" 502 2940 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -
-172.18.0.1 - - [01/Sep/2020:21:27:52 +0000] "GET /favicon.ico HTTP/1.1" 502 2940 "http://localhost/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -
-127.0.0.1 - - [01/Sep/2020:21:28:22 +0000] "GET /help HTTP/1.1" 502 2940 "" "curl/7.59.0-DEV" -
-172.18.0.1 - - [01/Sep/2020:21:28:43 +0000] "GET / HTTP/1.1" 502 2940 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -
-172.18.0.1 - - [01/Sep/2020:21:28:44 +0000] "GET /favicon.ico HTTP/1.1" 502 2940 "http://localhost/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -
-127.0.0.1 - - [01/Sep/2020:21:29:23 +0000] "GET /help HTTP/1.1" 502 2940 "" "curl/7.59.0-DEV" -
-127.0.0.1 - - [01/Sep/2020:21:30:25 +0000] "GET /help HTTP/1.1" 502 2940 "" "curl/7.59.0-DEV" -
-127.0.0.1 - - [01/Sep/2020:21:31:28 +0000] "GET /help HTTP/1.1" 502 2940 "" "curl/7.59.0-DEV" -
-172.18.0.1 - - [01/Sep/2020:21:32:19 +0000] "GET / HTTP/1.1" 502 2940 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -
-172.18.0.1 - - [01/Sep/2020:21:32:20 +0000] "GET /favicon.ico HTTP/1.1" 502 2940 "http://localhost/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -
-127.0.0.1 - - [01/Sep/2020:21:32:29 +0000] "GET /help HTTP/1.1" 502 2940 "" "curl/7.59.0-DEV" -
-127.0.0.1 - - [01/Sep/2020:21:33:30 +0000] "GET /help HTTP/1.1" 502 2940 "" "curl/7.59.0-DEV" -
-127.0.0.1 - - [01/Sep/2020:21:34:31 +0000] "GET /help HTTP/1.1" 502 2940 "" "curl/7.59.0-DEV" -
-127.0.0.1 - - [01/Sep/2020:21:35:31 +0000] "GET /help HTTP/1.1" 502 2940 "" "curl/7.59.0-DEV" -
-172.18.0.1 - - [01/Sep/2020:21:35:56 +0000] "GET / HTTP/1.1" 502 2940 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -
-172.18.0.1 - - [01/Sep/2020:21:35:57 +0000] "GET /favicon.ico HTTP/1.1" 502 2940 "http://localhost/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -
+127.0.0.1 - - [02/Sep/2020:18:32:28 +0000] "GET /help HTTP/1.1" 502 2940 "" "curl/7.59.0-DEV" -
+127.0.0.1 - - [02/Sep/2020:18:33:29 +0000] "GET /help HTTP/1.1" 502 2940 "" "curl/7.59.0-DEV" -
+127.0.0.1 - - [02/Sep/2020:18:34:29 +0000] "GET /help HTTP/1.1" 502 2940 "" "curl/7.59.0-DEV" -
+127.0.0.1 - - [02/Sep/2020:18:35:30 +0000] "GET /help HTTP/1.1" 502 2940 "" "curl/7.59.0-DEV" -
+127.0.0.1 - - [02/Sep/2020:18:36:30 +0000] "GET /help HTTP/1.1" 502 2940 "" "curl/7.59.0-DEV" -
+172.17.0.1 - - [02/Sep/2020:18:37:28 +0000] "GET / HTTP/1.1" 502 2940 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" -
+172.17.0.1 - - [02/Sep/2020:18:37:29 +0000] "GET /favicon.ico HTTP/1.1" 502 2940 "http://localhost/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" -
+127.0.0.1 - - [02/Sep/2020:18:37:30 +0000] "GET /help HTTP/1.1" 502 2940 "" "curl/7.59.0-DEV" -
+172.17.0.1 - - [02/Sep/2020:18:37:33 +0000] "GET / HTTP/1.1" 502 2940 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" -
+172.17.0.1 - - [02/Sep/2020:18:37:33 +0000] "GET /favicon.ico HTTP/1.1" 502 2940 "http://localhost/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" -
+127.0.0.1 - - [02/Sep/2020:18:45:13 +0000] "GET /help HTTP/1.1" 502 2940 "" "curl/7.59.0-DEV" -
+172.17.0.1 - - [02/Sep/2020:18:46:02 +0000] "GET / HTTP/1.1" 502 2940 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" -
+172.17.0.1 - - [02/Sep/2020:18:46:03 +0000] "GET /favicon.ico HTTP/1.1" 502 2940 "http://localhost/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" -
+127.0.0.1 - - [02/Sep/2020:18:46:15 +0000] "GET /help HTTP/1.1" 502 2940 "" "curl/7.59.0-DEV" -
+127.0.0.1 - - [02/Sep/2020:18:47:16 +0000] "GET /help HTTP/1.1" 502 2940 "" "curl/7.59.0-DEV" -
+172.17.0.1 - - [02/Sep/2020:18:47:51 +0000] "GET / HTTP/1.1" 502 2940 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" -
+172.17.0.1 - - [02/Sep/2020:18:47:51 +0000] "GET /favicon.ico HTTP/1.1" 502 2940 "http://localhost/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" -

@@ -1,10 +1,6 @@
-2020-09-01_21:17:42.45725 time="2020-09-01T21:17:42Z" level=info msg="Established new database connection to \"/var/opt/gitlab/postgresql:5432\"." source="postgres_exporter.go:878"
-2020-09-01_21:17:43.55848 time="2020-09-01T21:17:42Z" level=info msg="Semantic Version Changed on \"/var/opt/gitlab/postgresql:5432\": 0.0.0 -> 11.7.0" source="postgres_exporter.go:1405"
-2020-09-01_21:17:43.56174 time="2020-09-01T21:17:42Z" level=error msg="Failed to reload user queries: /var/opt/gitlab/postgres-exporter/queries.yaml open /var/opt/gitlab/postgres-exporter/queries.yaml: no such file or directory" source="postgres_exporter.go:1426"
-2020-09-01_21:17:48.00965 time="2020-09-01T21:17:48Z" level=info msg="Starting Server: localhost:9187" source="postgres_exporter.go:1672"
-2020-09-01_21:28:23.67872 time="2020-09-01T21:28:23Z" level=info msg="Established new database connection to \"/var/opt/gitlab/postgresql:5432\"." source="postgres_exporter.go:878"
-2020-09-01_21:28:24.66775 time="2020-09-01T21:28:24Z" level=info msg="Semantic Version Changed on \"/var/opt/gitlab/postgresql:5432\": 0.0.0 -> 11.7.0" source="postgres_exporter.go:1405"
-2020-09-01_21:29:32.43701 time="2020-09-01T21:29:32Z" level=info msg="Starting Server: localhost:9187" source="postgres_exporter.go:1672"
-2020-09-01_21:31:57.68853 2020/09/01 21:31:57 http: superfluous response.WriteHeader call from github.com/wrouesnel/postgres_exporter/vendor/github.com/prometheus/client_golang/prometheus/promhttp.(*responseWriterDelegator).WriteHeader (delegator.go:58)
-2020-09-01_21:33:58.20912 2020/09/01 21:33:58 http: superfluous response.WriteHeader call from github.com/wrouesnel/postgres_exporter/vendor/github.com/prometheus/client_golang/prometheus/promhttp.(*responseWriterDelegator).WriteHeader (delegator.go:58)
-2020-09-01_21:34:03.17326 2020/09/01 21:34:03 http: superfluous response.WriteHeader call from github.com/wrouesnel/postgres_exporter/vendor/github.com/prometheus/client_golang/prometheus/promhttp.(*responseWriterDelegator).WriteHeader (delegator.go:58)
+2020-09-02_18:44:59.44214 time="2020-09-02T18:44:59Z" level=info msg="Established new database connection to \"/var/opt/gitlab/postgresql:5432\"." source="postgres_exporter.go:878"
+2020-09-02_18:44:59.62825 time="2020-09-02T18:44:59Z" level=info msg="Semantic Version Changed on \"/var/opt/gitlab/postgresql:5432\": 0.0.0 -> 11.7.0" source="postgres_exporter.go:1405"
+2020-09-02_18:45:44.38462 time="2020-09-02T18:45:44Z" level=info msg="Starting Server: localhost:9187" source="postgres_exporter.go:1672"
+2020-09-02_18:46:38.99106 2020/09/02 18:46:38 http: superfluous response.WriteHeader call from github.com/wrouesnel/postgres_exporter/vendor/github.com/prometheus/client_golang/prometheus/promhttp.(*responseWriterDelegator).WriteHeader (delegator.go:58)
+2020-09-02_18:47:04.36553 time="2020-09-02T18:47:04Z" level=info msg="Established new database connection to \"/var/opt/gitlab/postgresql:5432\"." source="postgres_exporter.go:878"
+2020-09-02_18:47:06.23596 time="2020-09-02T18:47:06Z" level=info msg="Semantic Version Changed on \"/var/opt/gitlab/postgresql:5432\": 0.0.0 -> 11.7.0" source="postgres_exporter.go:1405"

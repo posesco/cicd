@@ -1,0 +1,19 @@
+2020-09-02_18:26:05.29987 413:C 02 Sep 2020 18:26:05.299 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+2020-09-02_18:26:05.30477 413:C 02 Sep 2020 18:26:05.299 # Redis version=5.0.9, bits=64, commit=ce878b6e, modified=0, pid=413, just started
+2020-09-02_18:26:05.30567 413:C 02 Sep 2020 18:26:05.299 # Configuration loaded
+2020-09-02_18:26:05.30853 413:M 02 Sep 2020 18:26:05.308 * Running mode=standalone, port=0.
+2020-09-02_18:26:05.31019 413:M 02 Sep 2020 18:26:05.308 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+2020-09-02_18:26:05.31132 413:M 02 Sep 2020 18:26:05.308 # Server initialized
+2020-09-02_18:26:05.31223 413:M 02 Sep 2020 18:26:05.308 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+2020-09-02_18:26:05.31318 413:M 02 Sep 2020 18:26:05.310 * The server is now ready to accept connections at /var/opt/gitlab/redis/redis.socket
+2020-09-02_18:31:06.02222 413:M 02 Sep 2020 18:31:06.022 * 10 changes in 300 seconds. Saving...
+2020-09-02_18:31:06.02479 413:M 02 Sep 2020 18:31:06.022 * Background saving started by pid 5098
+2020-09-02_18:31:06.02913 5098:C 02 Sep 2020 18:31:06.029 * DB saved on disk
+2020-09-02_18:31:06.03032 5098:C 02 Sep 2020 18:31:06.030 * RDB: 0 MB of memory used by copy-on-write
+2020-09-02_18:31:06.12327 413:M 02 Sep 2020 18:31:06.123 * Background saving terminated with success
+2020-09-02_18:36:07.06885 413:M 02 Sep 2020 18:36:07.067 * 10 changes in 300 seconds. Saving...
+2020-09-02_18:36:07.07060 413:M 02 Sep 2020 18:36:07.069 * Background saving started by pid 10068
+2020-09-02_18:36:07.10261 10068:C 02 Sep 2020 18:36:07.102 * DB saved on disk
+2020-09-02_18:36:07.10410 10068:C 02 Sep 2020 18:36:07.103 * RDB: 0 MB of memory used by copy-on-write
+2020-09-02_18:36:07.17175 413:M 02 Sep 2020 18:36:07.171 * Background saving terminated with success
+2020-09-02_18:38:09.48902 413:signal-handler (1599071889) Received SIGTERM scheduling shutdown...

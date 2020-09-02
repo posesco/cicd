@@ -1,15 +1,35 @@
 # Infraestructura para aplicacion web y principo de CI/CD
 version: '3.8'
 services:
+  # Contenedor GitLab
+  git:
+    container_name: SERVER_GIT
+    image: gitlab/gitlab-ce:latest
+    restart: always
+    hostname: gitlab.local
+    # environment:
+    #   GITLAB_OMNIBUS_CONFIG: |
+    #     external_url 'https://gitlab.local'
+    # volumes:
+    #   - "./gitlab/config:/etc/gitlab"
+    #   - "./gitlab/logs:/var/log/gitlab"
+    #   - "./gitlab/data:/var/opt/gitlab"
+    ports:
+      - '80:80'
+      - '9443:443'
+      - '22:22'
+    networks:
+      - net
   # Contenedor de automatizacion
   jenkins:
     container_name: JENKINS
+    hostname: jenkins.local
     image: jenkins/jenkins:posesco
     build: 
       context: jenkins-ansible
     ports:
-      - "8080:8080"
-      - "5000:5000"
+      - '8080:8080'
+      - '5000:5000'
     volumes:
       - ./jenkins-ansible/jenkins_home:/var/jenkins_home
     networks:
@@ -38,6 +58,7 @@ services:
       - ./web/api:/srv/www/api
       - ./web/api/www.conf:/usr/local/etc/php-fpm.d/www.conf
     env_file: .env
+    restart: on-failure
     networks: 
       - net
   # Contenedor Servidor Web
@@ -52,6 +73,7 @@ services:
       - ./web/nginx/default.conf:/etc/nginx/conf.d/default.conf
     depends_on: 
       - php
+    restart: on-failure
     networks:
       - net
   # Contenedor Base de Datos
@@ -66,24 +88,10 @@ services:
     ports: 
         - 3306:3306
     volumes: 
-        - ./mysql/db:/var/lib/mysql
+        - ./mysql/db:/var/lib/mysql 
     env_file: .env
+    restart: always
     networks: 
         - net 
-  # Contenedor GitLab
-  git:
-    container_name: SERVER_GIT
-    image: gitlab/gitlab-ce:latest
-    hostname: gitlab.example.com
-    ports:
-      - 443:443
-      - 80:80
-      - 22:22
-    volumes:
-      - ./gitlab/config:/etc/gitlab
-      - ./gitlab/logs:/var/log/gitlab
-      - ./gitlab/data:/var/opt/gitlab
-    networks:
-      - net
 networks:
   net:

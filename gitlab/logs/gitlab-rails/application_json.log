@@ -1,21 +1,24 @@
-# Logfile created on 2020-09-01 21:06:03 +0000 by logger.rb/66358
-{"severity":"INFO","time":"2020-09-01T21:06:03.459Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
-{"severity":"INFO","time":"2020-09-01T21:12:02.174Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
-{"severity":"INFO","time":"2020-09-01T21:12:03.319Z","correlation_id":null,"method":"with_lock_retries","class":"Gitlab::Database::Partitioning::PartitionCreator","message":"Lock timeout is set","current_iteration":1,"lock_timeout_in_ms":100}
-{"severity":"INFO","time":"2020-09-01T21:12:03.959Z","correlation_id":null,"message":"Created partition audit_events_part_5fc467ac26_000000 for table audit_events_part_5fc467ac26"}
-{"severity":"INFO","time":"2020-09-01T21:12:04.193Z","correlation_id":null,"message":"Created partition audit_events_part_5fc467ac26_202009 for table audit_events_part_5fc467ac26"}
-{"severity":"INFO","time":"2020-09-01T21:12:04.385Z","correlation_id":null,"message":"Created partition audit_events_part_5fc467ac26_202010 for table audit_events_part_5fc467ac26"}
-{"severity":"INFO","time":"2020-09-01T21:12:04.560Z","correlation_id":null,"message":"Created partition audit_events_part_5fc467ac26_202011 for table audit_events_part_5fc467ac26"}
-{"severity":"INFO","time":"2020-09-01T21:12:04.706Z","correlation_id":null,"message":"Created partition audit_events_part_5fc467ac26_202012 for table audit_events_part_5fc467ac26"}
-{"severity":"INFO","time":"2020-09-01T21:12:04.903Z","correlation_id":null,"message":"Created partition audit_events_part_5fc467ac26_202101 for table audit_events_part_5fc467ac26"}
-{"severity":"INFO","time":"2020-09-01T21:12:05.075Z","correlation_id":null,"message":"Created partition audit_events_part_5fc467ac26_202102 for table audit_events_part_5fc467ac26"}
-{"severity":"INFO","time":"2020-09-01T21:12:05.224Z","correlation_id":null,"message":"Created partition audit_events_part_5fc467ac26_202103 for table audit_events_part_5fc467ac26"}
-{"severity":"INFO","time":"2020-09-01T21:12:05.251Z","correlation_id":null,"method":"with_lock_retries","class":"Gitlab::Database::Partitioning::PartitionCreator","message":"Migration finished","current_iteration":1,"lock_timeout_in_ms":100}
-{"severity":"INFO","time":"2020-09-01T21:12:16.561Z","correlation_id":null,"message":"User \"Administrator\" (admin@example.com) was created"}
-{"severity":"INFO","time":"2020-09-01T21:14:06.050Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
-{"severity":"INFO","time":"2020-09-01T21:17:28.617Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
-{"severity":"INFO","time":"2020-09-01T21:17:51.772Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
-{"severity":"INFO","time":"2020-09-01T21:20:44.082Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
-{"severity":"INFO","time":"2020-09-01T21:24:10.476Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
-{"severity":"INFO","time":"2020-09-01T21:26:42.509Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
-{"severity":"INFO","time":"2020-09-01T21:32:47.141Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+# Logfile created on 2020-09-02 18:28:00 +0000 by logger.rb/66358
+{"severity":"INFO","time":"2020-09-02T18:28:00.172Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"INFO","time":"2020-09-02T18:30:26.358Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"INFO","time":"2020-09-02T18:30:26.958Z","correlation_id":null,"method":"with_lock_retries","class":"Gitlab::Database::Partitioning::PartitionCreator","message":"Lock timeout is set","current_iteration":1,"lock_timeout_in_ms":100}
+{"severity":"INFO","time":"2020-09-02T18:30:27.178Z","correlation_id":null,"message":"Created partition audit_events_part_5fc467ac26_000000 for table audit_events_part_5fc467ac26"}
+{"severity":"INFO","time":"2020-09-02T18:30:27.234Z","correlation_id":null,"message":"Created partition audit_events_part_5fc467ac26_202009 for table audit_events_part_5fc467ac26"}
+{"severity":"INFO","time":"2020-09-02T18:30:27.299Z","correlation_id":null,"message":"Created partition audit_events_part_5fc467ac26_202010 for table audit_events_part_5fc467ac26"}
+{"severity":"INFO","time":"2020-09-02T18:30:27.350Z","correlation_id":null,"message":"Created partition audit_events_part_5fc467ac26_202011 for table audit_events_part_5fc467ac26"}
+{"severity":"INFO","time":"2020-09-02T18:30:27.519Z","correlation_id":null,"message":"Created partition audit_events_part_5fc467ac26_202012 for table audit_events_part_5fc467ac26"}
+{"severity":"INFO","time":"2020-09-02T18:30:27.571Z","correlation_id":null,"message":"Created partition audit_events_part_5fc467ac26_202101 for table audit_events_part_5fc467ac26"}
+{"severity":"INFO","time":"2020-09-02T18:30:27.674Z","correlation_id":null,"message":"Created partition audit_events_part_5fc467ac26_202102 for table audit_events_part_5fc467ac26"}
+{"severity":"INFO","time":"2020-09-02T18:30:27.810Z","correlation_id":null,"message":"Created partition audit_events_part_5fc467ac26_202103 for table audit_events_part_5fc467ac26"}
+{"severity":"INFO","time":"2020-09-02T18:30:27.815Z","correlation_id":null,"method":"with_lock_retries","class":"Gitlab::Database::Partitioning::PartitionCreator","message":"Migration finished","current_iteration":1,"lock_timeout_in_ms":100}
+{"severity":"INFO","time":"2020-09-02T18:30:36.134Z","correlation_id":null,"message":"User \"Administrator\" (admin@example.com) was created"}
+{"severity":"INFO","time":"2020-09-02T18:31:12.563Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"INFO","time":"2020-09-02T18:32:08.990Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"INFO","time":"2020-09-02T18:32:19.721Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"INFO","time":"2020-09-02T18:33:56.870Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"INFO","time":"2020-09-02T18:34:44.448Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"INFO","time":"2020-09-02T18:36:10.077Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"INFO","time":"2020-09-02T18:37:04.071Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"INFO","time":"2020-09-02T18:45:24.989Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"INFO","time":"2020-09-02T18:45:24.995Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"INFO","time":"2020-09-02T18:46:43.745Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
